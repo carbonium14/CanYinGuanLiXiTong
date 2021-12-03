@@ -1,0 +1,88 @@
+@import url(./common/subbar.css);
+@import url(./common/navbar.css);
+body
+{
+    background: url(../images/index_bg.png) no-repeat top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#content
+{
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    bottom: 20px;
+    left: 300px;
+    background: rgba(255, 255, 255, .2);
+    box-sizing: border-box;
+    padding: 10px;
+    overflow: hidden;
+}
+.foodlist
+{
+    font-size: 0;
+}
+.foodlist li
+{
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.foodlist img
+{
+    width: 350px;
+    height: 350px;
+    cursor: pointer;
+}
+.recommand
+{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    font-size: 50px;
+    color: #ff8400;
+}
+.foodlist .bar
+{
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 40px;
+    box-sizing: border-box;
+    padding: 0 10px;
+    background: rgba(0, 0, 0, .6);
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+}
+.foodlist .bar p
+{
+    display: flex;
+    align-items: center;
+}
+.foodlist .rmb
+{
+    font-size: 14px;
+}
+.foodlist .price
+{
+    color: #f0e184;
+    margin: 0 10px;
+}
+.foodlist .bar button
+{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background: #ff8400;
+    color: #fff;
+    border-radius: 50%;
+}
+.foodlist .bar button span
+{
+    font-size: 14px;
+}
